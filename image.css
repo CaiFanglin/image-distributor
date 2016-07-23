@@ -1,0 +1,26 @@
+
+.wrap{
+	height:700px;
+	box-shadow:none;
+}
+.wrap:after,.wrap:before{
+	height:100%;
+}
+.wrap:after{	
+	transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	box-shadow: 5px 5px 20px #222 inset;
+}
+.wrap:before{
+	background: #999;
+	transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-webkit-transform: rotate(3deg);
+	box-shadow: -5px -5px 20px #222 inset;
+}
+.photo{
+	-webkit-transform-origin:50% 50%;
+	-moz-transform-origin:50% 50%;
+	font-size: 20px;
+}
